@@ -322,7 +322,7 @@
                      </div>
                      <div class="skill-box">
                         <span>
-                            <svg height="65px" width="65px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:white;} </style> <g> <polygon class="st0" points="193.431,261.016 211.237,261.016 318.569,261.016 312.062,334.41 256,348.67 199.938,334.41 196.059,290.703 138.856,290.703 146.742,379.683 256,407.465 365.262,379.683 380.403,208.788 188.801,208.788 183.74,151.682 385.467,151.682 390.52,94.696 121.481,94.696 136.224,261.016 "></polygon> <path class="st0" d="M20.366,0l0.984,10.627l41.882,452.361L256,512l192.767-49.012L491.634,0H20.366z M402.505,423.462 L256,460.713l-146.505-37.251L74.888,49.711h362.223L402.505,423.462z"></path> </g> </g></svg>
+                            <svg fill="white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65px" height="65px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="c133de6af664cd4f011a55de6b0011b2"> <path display="inline" d="M30.713,0.501L71.717,460.42l184.006,51.078l184.515-51.15L481.287,0.501H30.713z M395.754,109.646 l-2.567,28.596l-1.128,12.681h-0.187H256h-0.197h-79.599l5.155,57.761h74.444H256h115.723h15.201l-1.377,15.146l-13.255,148.506 l-0.849,9.523L256,413.854v0.012l-0.259,0.072l-115.547-32.078l-7.903-88.566h26.098h30.526l4.016,44.986l62.82,16.965l0.052-0.014 v-0.006l62.916-16.977l6.542-73.158H256h-0.197H129.771l-13.863-155.444l-1.351-15.131h141.247H256h141.104L395.754,109.646z"> </path> </g> </g></svg>
                         </span>
                         <span>
                             <svg fill="white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65px" height="65px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="c133de6af664cd4f011a55de6b001b19"> <path display="inline" d="M483.111,0.501l-42.59,461.314l-184.524,49.684L71.47,461.815L28.889,0.501H483.111z M397.29,94.302 H255.831H111.866l6.885,55.708h137.08h7.7l-7.7,3.205l-132.07,55.006l4.38,54.453l127.69,0.414l68.438,0.217l-4.381,72.606 l-64.058,18.035v-0.057l-0.525,0.146l-61.864-15.617l-3.754-45.07h-0.205H132.1h-0.202l7.511,87.007l116.423,34.429v-0.062 l0.21,0.062l115.799-33.802l15.021-172.761h-131.03h-0.323l0.323-0.14l135.83-58.071L397.29,94.302z"> </path> </g> </g></svg>    
@@ -365,7 +365,7 @@
         </div>
 
     </section>
-    <footer class="container" style="margin-top: 2rem;margin-top: 2rem; position: absolute; bottom: 20px; left: 16px; text-align: center; width: 80%;">
+    <footer class="container" style="margin-top: 2rem; text-align: center; width: 80%; margin-bottom: 1%;">
         <div>
             <p style="color: #4285f4;">Designed and developed By &copy; 2023 Ashuraj Srivastav</p>
         </div>

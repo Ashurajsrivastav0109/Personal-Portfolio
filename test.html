@@ -1,185 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Projects</title>
-    <style>
-        /* General Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-
-        /* Header */
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 30px;
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin-top: 20px;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 30px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.1rem;
-            text-transform: uppercase;
-            transition: color 0.3s;
-        }
-
-        nav ul li a:hover {
-            color: #f39c12;
-        }
-
-        /* Projects Section */
-        #projects {
-            padding: 50px 20px;
-            text-align: center;
-            background-color: #ffffff;
-        }
-
-        #projects h2 {
-            font-size: 2.5rem;
-            margin-bottom: 30px;
-            color: #333;
-        }
-
-        .projects-container {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .project {
-            background-color: #fff;
-            border-radius: 8px;
-            overflow: hidden;
-            width: 300px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .project:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-        }
-
-        .project img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-
-        .project:hover img {
-            transform: scale(1.05);
-        }
-
-        .project-info {
-            padding: 20px;
-        }
-
-        .project h3 {
-            font-size: 1.8rem;
-            margin-bottom: 10px;
-            color: #333;
-        }
-
-        .project a {
-            color: #f39c12;
-            text-decoration: none;
-            font-size: 1.1rem;
-            transition: color 0.3s;
-        }
-
-        .project a:hover {
-            color: #e67e22;
-        }
-
-        .project p {
-            color: #777;
-            margin-top: 10px;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: #fff;
-            margin-top: 50px;
-        }
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      width: 90%;
+      max-width: 1200px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-title {
+      font-size: 1.2em;
+      margin: 0 0 10px;
+      color: #333;
+    }
+    .card-description {
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .card-languages {
+      font-size: 0.8em;
+      color: #007BFF;
+    }
+  </style>
 </head>
 <body>
-
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="projects-container">
-            <div class="project">
-                <img src="project1.jpg" alt="Project One">
-                <div class="project-info">
-                    <h3><a href="https://example.com/project1">Project One</a></h3>
-                    <p>This is an awesome project where I built a web app to solve a specific problem.</p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="project2.jpg" alt="Project Two">
-                <div class="project-info">
-                    <h3><a href="https://example.com/project2">Project Two</a></h3>
-                    <p>Another amazing project where I developed a responsive and dynamic user interface.</p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="project3.jpg" alt="Project Three">
-                <div class="project-info">
-                    <h3><a href="https://example.com/project3">Project Three</a></h3>
-                    <p>A full-stack application built using modern frameworks and technologies.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
-    </footer>
-
+  <div class="card-container">
+    <!-- Project Card 1 -->
+    <div class="card">
+      <img src="project1.jpg" alt="Project 1">
+      <div class="card-content">
+        <h3 class="card-title">Project Title 1</h3>
+        <p class="card-description">A brief description of the project goes here, explaining its purpose and key features.</p>
+        <p class="card-languages">Languages: HTML, CSS, JavaScript</p>
+      </div>
+    </div>
+    <!-- Project Card 2 -->
+    <div class="card">
+      <img src="project2.jpg" alt="Project 2">
+      <div class="card-content">
+        <h3 class="card-title">Project Title 2</h3>
+        <p class="card-description">A brief description of the project goes here, explaining its purpose and key features.</p>
+        <p class="card-languages">Languages: PHP, MySQL</p>
+      </div>
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
 </body>
 </html>
