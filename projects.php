@@ -25,7 +25,7 @@
     .card {
       background: #fff;
       border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 1px 14px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       transition: transform 0.2s ease;
     }
@@ -62,6 +62,7 @@
       justify-content: center;
       margin: 16px 0px;
       width: 100% !important;
+      margin-top: 36px;
     }
 </style>
 <div class="project-section">
