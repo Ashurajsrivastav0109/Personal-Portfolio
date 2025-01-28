@@ -25,7 +25,7 @@
     .card {
       background: #fff;
       border-radius: 12px;
-      box-shadow: 0 1px 14px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       transition: transform 0.2s ease;
     }
@@ -62,7 +62,6 @@
       justify-content: center;
       margin: 16px 0px;
       width: 100% !important;
-      margin-top: 36px;
     }
 </style>
 <div class="project-section">
@@ -82,7 +81,7 @@
                 <h3 class="card-title">CMS for Blog Management</h3>
                 <p class="card-description">Creating a Laravel-powered CMS for efficient blog content management with an intuitive user interface and robust backend.</p>
                 <p class="card-languages"> <strong style="color: #007BFF;">Languages:</strong>HTML, CSS, JavaScript, Bootstrap, Laravel, SQL</p>
-                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools:</strong> VS Code, XAMPP</p>
+                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools</strong> VS Code, XAMPP</p>
             </div>
         </div>
         <!-- Project Card 1 -->
@@ -98,7 +97,7 @@
                 <h3 class="card-title">Landing Page</h3>
                 <p class="card-description"><strong>"Created Custom Landing Pages for Digital Marketing Agencies and Other Businesses"</strong> Designed and developed landing pages to enhance user engagement, boost conversions, and align with each client's brand identity</p>
                 <p class="card-languages"> <strong style="color: #007BFF;">Languages:</strong>HTML, CSS, JavaScript, Bootstrap, Laravel, SQL</p>
-                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools:</strong> VS Code, XAMPP</p>
+                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools</strong> VS Code, XAMPP</p>
             </div>
         </div>
         <!-- Project Card 1 -->
@@ -111,7 +110,7 @@
                 <h3 class="card-title">Portfolio (Personal Project)</h3>
                 <p class="card-description">Designed and developed a personal portfolio to showcase skills and projects with a modern, responsive design using Core PHP.</p>
                 <p class="card-languages"> <strong style="color: #007BFF;">Languages:</strong> HTML, CSS, JavaScript, Bootstrap, Core PHP, SQL</p>
-                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools:</strong> VS Code, XAMPP</p>
+                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools</strong> VS Code, XAMPP</p>
             </div>
         </div>
         <!-- Project Card 1 -->
@@ -125,7 +124,7 @@
                 <p class="card-description">Developed a CRM module focused on sales workflow optimization, including quotation
                 generation and lead tracking within PrestaShop.</p>
                 <p class="card-languages"> <strong style="color: #007BFF;">Languages:</strong> : HTML, CSS, JavaScript, Bootstrap, Prestashop, SQL</p>
-                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools:</strong> VS Code, Adminer</p>
+                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools</strong> VS Code, Adminer</p>
             </div>
         </div>
         <!-- Project Card 2 -->
@@ -138,7 +137,7 @@
                 <h3 class="card-title">Employee Management Module</h3>
                 <p class="card-description">Created a module for managing employee records, integrated seamlessly into the PrestaShop framework with SQL-backed data management.</p>
                 <p class="card-languages"> <strong style="color: #007BFF;">Languages:</strong> : HTML, CSS, JavaScript, Bootstrap, Prestashop, SQL</p>
-                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools:</strong> VS Code, Adminer</p>
+                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools</strong> VS Code, Adminer</p>
             </div>
         </div>
         <!-- Project Card 3 -->
@@ -152,7 +151,7 @@
                 <p class="card-description">Built an attendance management system using QR code scanning, improving efficiency
                 for employee time tracking in PrestaShop</p>
                 <p class="card-languages"> <strong style="color: #007BFF;">Languages:</strong>HTML, CSS, JavaScript, Bootstrap, Prestashop, SQL</p>
-                <p class="card-languages"><strong style="color: #007BFF;">Tools:</strong> VS Code, Adminer</p>
+                <p class="card-languages"><strong style="color: #007BFF;">Tools</strong> VS Code, Adminer</p>
             </div>
         </div>
         <!-- Project Card 4 -->
@@ -166,7 +165,7 @@
                 <p class="card-description">Description: Developed a directory platform for local businesses with search functionality using Core
                 PHP, SQL, and a responsive front-end</p>
                 <p class="card-languages"> <strong style="color: #007BFF;">Languages:</strong> HTML, CSS, JavaScript, Bootstrap, Core PHP, SQL</p>
-                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools:</strong> VS Code, XAMPP</p>
+                <p class="card-languages" style="margin-top: 2% !important;"><strong style="color: #007BFF;">Tools</strong> VS Code, XAMPP</p>
             </div>
         </div>
         <!-- Add more cards as needed -->

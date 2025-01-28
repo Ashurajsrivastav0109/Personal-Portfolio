@@ -177,6 +177,29 @@
         }
     }
 
+
+    /* Responsive Nav Bar */
+    .mobile-nav-item-box {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid gray; */
+        margin-bottom: 5%;
+    }
+
+    .mobile-nav-item-box div {
+        padding: 10px 0px;
+        width: 100%;
+        text-align: center;
+        color: #4285f4;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .mobile-nav-item-box div:hover {
+        background: #f0efef;
+        cursor: pointer;
+    }
+
     /* Mobile Responsiveness */
     @media screen and (max-width: 600px) {
         .layerTwo, .layerOne{
@@ -201,10 +224,19 @@
         }
     }
 
-    @media screen and (max-width: 740px){
+    @media screen and (max-width: 800px){
         .toggle-btn{
             background: white !important;
             display: block !important;
+        }
+        .nav-mobile{
+            display: none !important;
+        }
+        .nav-items-box{
+            justify-content: flex-end;
+        }
+        . {
+            display: flex;
         }
     }
 
@@ -243,11 +275,11 @@
                 <img src="img/logo/name-logo-03.png" width="292" alt="">
             </div>
             <div class="nav-items-box">
-                <div class="nav-items" id="nav-items">
+                <div class="nav-items nav-mobile" id="nav-items">
                     <div class="about"><a href="#">About</a></div>
                     <div class="resume"><a href="#">Resume</a></div>
                 </div>
-                <div class="nav-items" id="nav-items">
+                <div class="nav-items nav-mobile" id="nav-items">
                     <div class="git contact-btn"><a href="#" style="background: #4285f4; border: none; box-shadow: none; color: white !important">Get in touch</a></div>
                 </div>
                 <div class="toggle-btn" id="toggle-btn">
@@ -255,6 +287,11 @@
                 </div>
             </div>
         </nav>
+        <div class="mobile-nav-item-box">
+            <div class="mobile-nav-item">Resume</div>
+            <div class="mobile-nav-item">Contact</div>
+            <div class="mobile-nav-item">About</div>
+        </div>
     </header>
     <section class="container">
         <div class="home-container-div">
