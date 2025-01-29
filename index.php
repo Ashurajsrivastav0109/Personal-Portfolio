@@ -224,6 +224,16 @@
         }
     }
 
+    @media screen and (min-width: 600px){
+        .nav-mobile{
+            display: flex !important;
+        }
+
+        .mobile-nav-item-box{
+            display: none;
+        }
+    }
+
     @media screen and (max-width: 800px){
         .toggle-btn{
             background: white !important;
@@ -234,9 +244,6 @@
         }
         .nav-items-box{
             justify-content: flex-end;
-        }
-        . {
-            display: flex;
         }
     }
 
@@ -288,9 +295,9 @@
             </div>
         </nav>
         <div class="mobile-nav-item-box">
-            <div class="mobile-nav-item">Resume</div>
-            <div class="mobile-nav-item">Contact</div>
-            <div class="mobile-nav-item">About</div>
+            <div class="mobile-nav-item mobile-resume">Resume</div>
+            <div class="mobile-nav-item mobile-contact">Contact</div>
+            <div class="mobile-nav-item mobile-about">About</div>
         </div>
     </header>
     <section class="container">
